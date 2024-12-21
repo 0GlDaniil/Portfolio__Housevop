@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__wrapper">
+      <a href="#" class="header__logo">
+        <img src="./img/svg/logo.svg" alt="logo" class="header__logo-img">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#about" class="header__nav-link">
+              О комплексе
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#watching" class="header__nav-link">
+              Район
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#apartments" class="header__nav-link">
+              Каталог квартир
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">
+              Ипотека
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#contacts" class="header__nav-link">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <div class="burger__menu">
+          <div class="burger__menu-btn">
+            <div class="burger__menu-line"></div>
+          </div>
+          <div class="burger__nav">
+            <ul class="burger__nav-list">
+              <li class="burger__nav-item"><a href="#about" class="burger__nav-link">О комплексе</a></li>
+              <li class="burger__nav-item"><a href="#watching" class="burger__nav-link">Район</a></li>
+              <li class="burger__nav-item"><a href="#apartments" class="burger__nav-link">Каталог квартир</a></li>
+              <li class="burger__nav-item"><a href="#" class="burger__nav-link">Ипотека</a></li>
+              <li class="burger__nav-item"><a href="#contacts" class="burger__nav-link">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>        
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__wrapper">
+        <h1 class="title hero__title">
+          Жилой комплекс <br> 
+в историческом центре
+        </h1>
+        <div class="hero__mouse">
+          <img src="./img/svg/mouse.svg" alt="mouse-icon" class="hero__mouse-icon">
+        </div>
+        <div class="hero__contacts">
+          <address class="hero__contacts-address">Наб. реки Фонтанки 10-15</address>
+          <a class="hero__contacts-tel" href="tel:+">8 (812) 123-45-67</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="testimonials">
+      <div class="bg__number bg__numberII"></div>
+      <div class="container">
+        <ul class="testimonials__list">
+          <li class="testimonials__list-item">
+            <img class="testimonials__list-image" src="./img/svg/Ts1.svg" alt="Image">
+            <p class="testimonials__list-text">
+              Рядом исторические <br>
+парки и скверы
+            </p>
+          </li>
+          <li class="testimonials__list-item">
+            <img class="testimonials__list-image" src="./img/svg/Ts2.svg" alt="Image">
+            <p class="testimonials__list-text">
+              Полностью <br>
+обустроенный
+            </p>
+          </li>
+          <li class="testimonials__list-item">
+            <img class="testimonials__list-image" src="./img/svg/Ts3.svg" alt="Image">
+            <p class="testimonials__list-text">
+              10 фонтанов <br>
+на территории
+            </p>
+          </li>
+          <li class="testimonials__list-item">
+            <img class="testimonials__list-image" src="./img/svg/Ts4.svg" alt="Image">  
+            <p class="testimonials__list-text">
+              6 км <br>
+велодорожек
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="apartments" class="apartments">
+      <div class="container">
+        <div class="bg__number bg__numberIII"></div>
+        <h2 class="title apartments__title">Наши квартиры</h2>
+        <div class="swiper-container">                          
+          <div class="swiper apartments__slider">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./img/Apart.png"><span class="apartments__slider-text">Лофт — 3 этажа</span></div>
+                  <div class="swiper-slide"><img src="./img/Apartnext.png"><span class="apartments__slider-text">Лофт — 2 этажа</span></div>
+                  <div class="swiper-slide"><img src="./img/Apart.png"><span class="apartments__slider-text">Лофт — 3 этажа</span></div>
+                  <div class="swiper-slide"><img src="./img/Apartnext.png"><span class="apartments__slider-text">Лофт — 2 этажа</span></div>
+              </div>
+          </div>    
+          <div class="swiper-button-prev"></div>            
+          <div class="swiper-button-next"></div>             
+      </div>
+      </div>
+    </section>
+    <section id="watching" class="watching">
+      <div class="container">
+        <h2 class="title watching__title">Хотите посмотреть?</h2>
+        <div class="watching__content">
+          <p class="watching__content-text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и веб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+          </p>
+          <form action="" class="watching__content-form">
+            <label class="visually-hidden" for="nameInput">Name</label>
+            <input class="input watching__form-input" type="text" name="name" id="nameInput" placeholder="Ваше имя" required>
+            <label class="visually-hidden" for="telInput">Phone</label>
+            <input class="input watching__form-input" type="tel" name="" id="telInput" placeholder="Ваш телефон" required>
+            <p class="watching__form-warning">*Мы никому не передаем ваши данные. 
+              И не сохраняем ваш номер в базу.</p>
+            <button class="button" type="submit">Посмотреть район</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <div class="container">
+        <div class="bg__number bg__numberIV"></div>
+        <div class="video__item">
+          <button class="vidbutton"></button>
+          <video class='video__player' poster="./img/Apart.png" width="75%">
+            <source src="./video/Untitled_Project_V1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div class="container">
+        <h2 class="map__title title">Район на карте</h2>
+        <div class="bg__number bg__numberV"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3776.145180906812!2d37.658291785335656!3d55.75312803785811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x46b54aed34a74bdf%3A0x17c0b50c6ee01eba!2z0KDQvtGB0YHQuNC50YHQutCw0Y8g0LDQutCw0LTQtdC80LjRjyDQsNC00LLQvtC60LDRgtGD0YDRiyDQuCDQvdC-0YLQsNGA0LjQsNGC0LA!3m2!1d55.7527896!2d37.6605412!4m0!5e0!3m2!1sru!2sru!4v1734721995124!5m2!1sru!2sru" width="100%" height="495" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <section id="contacts" class="questions">
+      <div class="container questions__wrapper">
+        <h2 class="questions__title title">Есть вопросы?</h2>
+        <form action="" class="questions__form">
+          <label class="visually-hidden" for="questionsName">Name</label>
+          <input class="input questions__form-input" type="text" name="questionsName" id="questionsName" placeholder="Ваше имя" required>
+          <label class="visually-hidden" for="questionsTel">Phone</label>
+          <input class="input questions__form-input" type="tel" name="questionsTel" id="questionsTel" placeholder="Ваш телефон" required>
+          <p class="questions__form-warning">*Мы никому не передаем ваши данные. 
+            И не сохраняем ваш номер в базу.</p>
+          <button class="button" type="submit">Посмотреть район</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__nav">
+        <a href="#" class="header__logo">
+          <img src="./img/svg/logo.svg" alt="logo" class="header__logo-img">
+        </a>
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            Адрес: <address class="footer__nav-adr">Наб. реки Фонтанки 10-15</address>
+          </li>
+          <li class="footer__nav-item">
+            Телефон: <a href="tel:+78121234567">8 (812) 123-45-67</a>
+          </li>
+          <li class="footer__nav-item">Отдел продаж: 10:00 - 20:00</li>
+          <li class="footer__nav-item">E-mail: <a class="footer__nav-mail" href="mailto:vip@housevip.ru">vip@housevip.ru</a></li>
+          <li class="footer__nav-item footer__social">
+            <a href="#" class="footer__social-link">
+              <img src="./img/svg/Youtube.svg" alt="YouTube">
+            </a>
+            <a href="#" class="footer__social-link">
+              <img src="./img/svg/Vk.svg" alt="VK">
+            </a>
+            <a href="#" class="footer__social-link">
+              <img src="./img/svg/facebook-logo.svg" alt="facebook">
+            </a>
+            <a href="#" class="footer__social-link">
+              <img src="./img/svg/instagram.svg" alt="instagram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

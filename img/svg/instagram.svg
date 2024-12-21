@@ -1,0 +1,16 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip3_108">
+			<rect id="instagram" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="instagram" width="20.000000" height="20.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip3_108)">
+		<path id="Vector" d="M13.75 0L6.25 0C2.79 0 0 2.79 0 6.25L0 13.75C0 17.2 2.79 20 6.25 20L13.75 20C17.2 20 20 17.2 20 13.75L20 6.25C20 2.79 17.2 0 13.75 0ZM18.12 13.75C18.12 16.16 16.16 18.12 13.75 18.12L6.25 18.12C3.83 18.12 1.87 16.16 1.87 13.75L1.87 6.25C1.87 3.83 3.83 1.87 6.25 1.87L13.75 1.87C16.16 1.87 18.12 3.83 18.12 6.25L18.12 13.75Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M10 5C7.23 5 5 7.23 5 10C5 12.76 7.23 15 10 15C12.76 15 15 12.76 15 10C15 7.23 12.76 5 10 5ZM10 13.12C8.27 13.12 6.87 11.72 6.87 10C6.87 8.27 8.27 6.87 10 6.87C11.72 6.87 13.12 8.27 13.12 10C13.12 11.72 11.72 13.12 10 13.12Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M16.04 4.62C16.04 4.99 15.74 5.29 15.37 5.29C15 5.29 14.7 4.99 14.7 4.62C14.7 4.25 15 3.95 15.37 3.95C15.74 3.95 16.04 4.25 16.04 4.62Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
